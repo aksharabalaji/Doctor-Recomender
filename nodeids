@@ -1,0 +1,17 @@
+[
+  "tests/test_api.py::test_add_doctor",
+  "tests/test_api.py::test_add_doctor_invalid_dept",
+  "tests/test_api.py::test_explanation_present",
+  "tests/test_api.py::test_feedback_accepted",
+  "tests/test_api.py::test_health",
+  "tests/test_api.py::test_list_departments",
+  "tests/test_api.py::test_list_doctors",
+  "tests/test_api.py::test_list_symptoms",
+  "tests/test_api.py::test_recommend_basic",
+  "tests/test_api.py::test_recommend_filter_available",
+  "tests/test_api.py::test_recommend_multi_symptom",
+  "tests/test_api.py::test_recommend_top_n_respected",
+  "tests/test_api.py::test_recommend_unknown_symptom",
+  "tests/test_api.py::test_recommend_with_user",
+  "tests/test_api.py::test_relevance_scores_ordered"
+]

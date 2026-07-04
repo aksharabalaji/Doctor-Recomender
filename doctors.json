@@ -1,0 +1,788 @@
+[
+  {
+    "id": "DOC001",
+    "name": "Dr. Arjun Verma",
+    "department_id": "D001",
+    "department_name": "Cardiology",
+    "experience_years": 6,
+    "rating": 3.9,
+    "total_reviews": 91,
+    "available_slots": 1,
+    "consultation_fee": 1200,
+    "languages": [
+      "Kannada"
+    ],
+    "specializations": [
+      "shortness of breath"
+    ]
+  },
+  {
+    "id": "DOC002",
+    "name": "Dr. Priya Sharma",
+    "department_id": "D001",
+    "department_name": "Cardiology",
+    "experience_years": 16,
+    "rating": 3.6,
+    "total_reviews": 139,
+    "available_slots": 8,
+    "consultation_fee": 1200,
+    "languages": [
+      "Kannada"
+    ],
+    "specializations": [
+      "dizziness",
+      "heart palpitations"
+    ]
+  },
+  {
+    "id": "DOC003",
+    "name": "Dr. Smita Pillai",
+    "department_id": "D001",
+    "department_name": "Cardiology",
+    "experience_years": 9,
+    "rating": 3.8,
+    "total_reviews": 162,
+    "available_slots": 0,
+    "consultation_fee": 500,
+    "languages": [
+      "Telugu",
+      "Hindi",
+      "Tamil"
+    ],
+    "specializations": [
+      "shortness of breath",
+      "heart palpitations"
+    ]
+  },
+  {
+    "id": "DOC004",
+    "name": "Dr. Suresh Mehta",
+    "department_id": "D001",
+    "department_name": "Cardiology",
+    "experience_years": 7,
+    "rating": 3.7,
+    "total_reviews": 214,
+    "available_slots": 1,
+    "consultation_fee": 700,
+    "languages": [
+      "Kannada",
+      "Hindi"
+    ],
+    "specializations": [
+      "chest pain"
+    ]
+  },
+  {
+    "id": "DOC005",
+    "name": "Dr. Smita Singh",
+    "department_id": "D002",
+    "department_name": "Neurology",
+    "experience_years": 17,
+    "rating": 5.0,
+    "total_reviews": 213,
+    "available_slots": 1,
+    "consultation_fee": 1200,
+    "languages": [
+      "Kannada",
+      "Hindi"
+    ],
+    "specializations": [
+      "dizziness"
+    ]
+  },
+  {
+    "id": "DOC006",
+    "name": "Dr. Suresh Kumar",
+    "department_id": "D002",
+    "department_name": "Neurology",
+    "experience_years": 21,
+    "rating": 3.6,
+    "total_reviews": 136,
+    "available_slots": 4,
+    "consultation_fee": 300,
+    "languages": [
+      "English"
+    ],
+    "specializations": [
+      "headache",
+      "dizziness"
+    ]
+  },
+  {
+    "id": "DOC007",
+    "name": "Dr. Ravi Das",
+    "department_id": "D003",
+    "department_name": "Orthopedics",
+    "experience_years": 11,
+    "rating": 3.7,
+    "total_reviews": 201,
+    "available_slots": 3,
+    "consultation_fee": 700,
+    "languages": [
+      "English",
+      "Tamil",
+      "Hindi"
+    ],
+    "specializations": [
+      "back pain",
+      "knee pain",
+      "joint swelling"
+    ]
+  },
+  {
+    "id": "DOC008",
+    "name": "Dr. Ananya Rao",
+    "department_id": "D003",
+    "department_name": "Orthopedics",
+    "experience_years": 10,
+    "rating": 4.1,
+    "total_reviews": 132,
+    "available_slots": 5,
+    "consultation_fee": 300,
+    "languages": [
+      "English"
+    ],
+    "specializations": []
+  },
+  {
+    "id": "DOC009",
+    "name": "Dr. Amit Verma",
+    "department_id": "D003",
+    "department_name": "Orthopedics",
+    "experience_years": 13,
+    "rating": 3.6,
+    "total_reviews": 181,
+    "available_slots": 3,
+    "consultation_fee": 900,
+    "languages": [
+      "Telugu",
+      "Tamil"
+    ],
+    "specializations": [
+      "knee pain",
+      "joint swelling"
+    ]
+  },
+  {
+    "id": "DOC010",
+    "name": "Dr. Kavitha Desai",
+    "department_id": "D004",
+    "department_name": "Gastroenterology",
+    "experience_years": 7,
+    "rating": 4.3,
+    "total_reviews": 239,
+    "available_slots": 6,
+    "consultation_fee": 700,
+    "languages": [
+      "Tamil"
+    ],
+    "specializations": []
+  },
+  {
+    "id": "DOC011",
+    "name": "Dr. Divya Kumar",
+    "department_id": "D004",
+    "department_name": "Gastroenterology",
+    "experience_years": 19,
+    "rating": 4.6,
+    "total_reviews": 76,
+    "available_slots": 2,
+    "consultation_fee": 500,
+    "languages": [
+      "Telugu",
+      "English",
+      "Tamil"
+    ],
+    "specializations": []
+  },
+  {
+    "id": "DOC012",
+    "name": "Dr. Geeta Rao",
+    "department_id": "D004",
+    "department_name": "Gastroenterology",
+    "experience_years": 15,
+    "rating": 4.3,
+    "total_reviews": 25,
+    "available_slots": 1,
+    "consultation_fee": 1200,
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "specializations": [
+      "abdominal pain",
+      "nausea"
+    ]
+  },
+  {
+    "id": "DOC013",
+    "name": "Dr. Ananya Rao",
+    "department_id": "D005",
+    "department_name": "Dermatology",
+    "experience_years": 16,
+    "rating": 3.5,
+    "total_reviews": 154,
+    "available_slots": 8,
+    "consultation_fee": 500,
+    "languages": [
+      "English",
+      "Hindi",
+      "Telugu"
+    ],
+    "specializations": [
+      "skin rash"
+    ]
+  },
+  {
+    "id": "DOC014",
+    "name": "Dr. Geeta Reddy",
+    "department_id": "D005",
+    "department_name": "Dermatology",
+    "experience_years": 19,
+    "rating": 3.7,
+    "total_reviews": 102,
+    "available_slots": 8,
+    "consultation_fee": 1200,
+    "languages": [
+      "Kannada"
+    ],
+    "specializations": []
+  },
+  {
+    "id": "DOC015",
+    "name": "Dr. Divya Sharma",
+    "department_id": "D005",
+    "department_name": "Dermatology",
+    "experience_years": 13,
+    "rating": 3.7,
+    "total_reviews": 205,
+    "available_slots": 4,
+    "consultation_fee": 500,
+    "languages": [
+      "Tamil"
+    ],
+    "specializations": [
+      "acne",
+      "hair loss"
+    ]
+  },
+  {
+    "id": "DOC016",
+    "name": "Dr. Vikram Bhat",
+    "department_id": "D006",
+    "department_name": "Pulmonology",
+    "experience_years": 5,
+    "rating": 4.7,
+    "total_reviews": 292,
+    "available_slots": 2,
+    "consultation_fee": 500,
+    "languages": [
+      "Telugu",
+      "Tamil",
+      "Kannada"
+    ],
+    "specializations": [
+      "chest pain",
+      "cough"
+    ]
+  },
+  {
+    "id": "DOC017",
+    "name": "Dr. Geeta Pillai",
+    "department_id": "D006",
+    "department_name": "Pulmonology",
+    "experience_years": 19,
+    "rating": 4.9,
+    "total_reviews": 296,
+    "available_slots": 3,
+    "consultation_fee": 700,
+    "languages": [
+      "Hindi",
+      "Telugu"
+    ],
+    "specializations": [
+      "shortness of breath"
+    ]
+  },
+  {
+    "id": "DOC018",
+    "name": "Dr. Ravi Singh",
+    "department_id": "D006",
+    "department_name": "Pulmonology",
+    "experience_years": 19,
+    "rating": 3.9,
+    "total_reviews": 52,
+    "available_slots": 5,
+    "consultation_fee": 300,
+    "languages": [
+      "Kannada",
+      "Tamil",
+      "Hindi"
+    ],
+    "specializations": [
+      "chest pain",
+      "shortness of breath",
+      "cough"
+    ]
+  },
+  {
+    "id": "DOC019",
+    "name": "Dr. Arjun Kumar",
+    "department_id": "D006",
+    "department_name": "Pulmonology",
+    "experience_years": 10,
+    "rating": 4.6,
+    "total_reviews": 50,
+    "available_slots": 3,
+    "consultation_fee": 300,
+    "languages": [
+      "Hindi"
+    ],
+    "specializations": [
+      "cough"
+    ]
+  },
+  {
+    "id": "DOC020",
+    "name": "Dr. Kavitha Verma",
+    "department_id": "D007",
+    "department_name": "Endocrinology",
+    "experience_years": 19,
+    "rating": 4.5,
+    "total_reviews": 129,
+    "available_slots": 8,
+    "consultation_fee": 500,
+    "languages": [
+      "Kannada",
+      "Telugu",
+      "English"
+    ],
+    "specializations": [
+      "fatigue",
+      "weight gain",
+      "blurred vision",
+      "diabetes symptoms"
+    ]
+  },
+  {
+    "id": "DOC021",
+    "name": "Dr. Pooja Reddy",
+    "department_id": "D007",
+    "department_name": "Endocrinology",
+    "experience_years": 18,
+    "rating": 3.6,
+    "total_reviews": 240,
+    "available_slots": 5,
+    "consultation_fee": 900,
+    "languages": [
+      "Telugu",
+      "English"
+    ],
+    "specializations": [
+      "weight gain",
+      "blurred vision",
+      "hair loss"
+    ]
+  },
+  {
+    "id": "DOC022",
+    "name": "Dr. Meera Patel",
+    "department_id": "D008",
+    "department_name": "Ophthalmology",
+    "experience_years": 23,
+    "rating": 4.1,
+    "total_reviews": 193,
+    "available_slots": 1,
+    "consultation_fee": 500,
+    "languages": [
+      "Tamil"
+    ],
+    "specializations": [
+      "blurred vision",
+      "eye pain"
+    ]
+  },
+  {
+    "id": "DOC023",
+    "name": "Dr. Ravi Iyer",
+    "department_id": "D008",
+    "department_name": "Ophthalmology",
+    "experience_years": 20,
+    "rating": 4.1,
+    "total_reviews": 162,
+    "available_slots": 7,
+    "consultation_fee": 500,
+    "languages": [
+      "Telugu"
+    ],
+    "specializations": [
+      "blurred vision",
+      "eye pain"
+    ]
+  },
+  {
+    "id": "DOC024",
+    "name": "Dr. Meera Patel",
+    "department_id": "D008",
+    "department_name": "Ophthalmology",
+    "experience_years": 20,
+    "rating": 4.5,
+    "total_reviews": 296,
+    "available_slots": 0,
+    "consultation_fee": 300,
+    "languages": [
+      "Tamil"
+    ],
+    "specializations": [
+      "blurred vision"
+    ]
+  },
+  {
+    "id": "DOC025",
+    "name": "Dr. Divya Bhat",
+    "department_id": "D008",
+    "department_name": "Ophthalmology",
+    "experience_years": 16,
+    "rating": 3.8,
+    "total_reviews": 225,
+    "available_slots": 0,
+    "consultation_fee": 500,
+    "languages": [
+      "English",
+      "Telugu"
+    ],
+    "specializations": [
+      "blurred vision"
+    ]
+  },
+  {
+    "id": "DOC026",
+    "name": "Dr. Lakshmi Pillai",
+    "department_id": "D009",
+    "department_name": "ENT",
+    "experience_years": 17,
+    "rating": 4.5,
+    "total_reviews": 269,
+    "available_slots": 2,
+    "consultation_fee": 500,
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "specializations": [
+      "cold"
+    ]
+  },
+  {
+    "id": "DOC027",
+    "name": "Dr. Smita Patel",
+    "department_id": "D009",
+    "department_name": "ENT",
+    "experience_years": 21,
+    "rating": 4.6,
+    "total_reviews": 49,
+    "available_slots": 0,
+    "consultation_fee": 1200,
+    "languages": [
+      "Kannada",
+      "Tamil"
+    ],
+    "specializations": [
+      "headache",
+      "cough",
+      "cold"
+    ]
+  },
+  {
+    "id": "DOC028",
+    "name": "Dr. Kiran Kumar",
+    "department_id": "D009",
+    "department_name": "ENT",
+    "experience_years": 4,
+    "rating": 4.8,
+    "total_reviews": 55,
+    "available_slots": 1,
+    "consultation_fee": 500,
+    "languages": [
+      "English",
+      "Tamil"
+    ],
+    "specializations": [
+      "headache",
+      "dizziness",
+      "cough",
+      "sore throat",
+      "cold"
+    ]
+  },
+  {
+    "id": "DOC029",
+    "name": "Dr. Priya Agarwal",
+    "department_id": "D010",
+    "department_name": "Psychiatry",
+    "experience_years": 22,
+    "rating": 3.6,
+    "total_reviews": 287,
+    "available_slots": 5,
+    "consultation_fee": 700,
+    "languages": [
+      "Hindi"
+    ],
+    "specializations": [
+      "fatigue"
+    ]
+  },
+  {
+    "id": "DOC030",
+    "name": "Dr. Deepak Choudhury",
+    "department_id": "D010",
+    "department_name": "Psychiatry",
+    "experience_years": 10,
+    "rating": 3.7,
+    "total_reviews": 173,
+    "available_slots": 7,
+    "consultation_fee": 700,
+    "languages": [
+      "English"
+    ],
+    "specializations": [
+      "anxiety",
+      "depression"
+    ]
+  },
+  {
+    "id": "DOC031",
+    "name": "Dr. Geeta Shah",
+    "department_id": "D010",
+    "department_name": "Psychiatry",
+    "experience_years": 17,
+    "rating": 5.0,
+    "total_reviews": 57,
+    "available_slots": 8,
+    "consultation_fee": 500,
+    "languages": [
+      "Hindi",
+      "Tamil",
+      "Telugu"
+    ],
+    "specializations": [
+      "fatigue",
+      "anxiety",
+      "depression"
+    ]
+  },
+  {
+    "id": "DOC032",
+    "name": "Dr. Kavitha Das",
+    "department_id": "D010",
+    "department_name": "Psychiatry",
+    "experience_years": 5,
+    "rating": 3.9,
+    "total_reviews": 244,
+    "available_slots": 8,
+    "consultation_fee": 700,
+    "languages": [
+      "Kannada",
+      "English",
+      "Hindi"
+    ],
+    "specializations": [
+      "fatigue",
+      "anxiety",
+      "depression"
+    ]
+  },
+  {
+    "id": "DOC033",
+    "name": "Dr. Meera Iyer",
+    "department_id": "D011",
+    "department_name": "General Medicine",
+    "experience_years": 12,
+    "rating": 3.9,
+    "total_reviews": 74,
+    "available_slots": 8,
+    "consultation_fee": 500,
+    "languages": [
+      "Hindi",
+      "Tamil"
+    ],
+    "specializations": [
+      "headache",
+      "back pain",
+      "abdominal pain",
+      "nausea",
+      "weight gain",
+      "fever",
+      "cold"
+    ]
+  },
+  {
+    "id": "DOC034",
+    "name": "Dr. Sanjay Reddy",
+    "department_id": "D011",
+    "department_name": "General Medicine",
+    "experience_years": 25,
+    "rating": 4.5,
+    "total_reviews": 155,
+    "available_slots": 8,
+    "consultation_fee": 900,
+    "languages": [
+      "English",
+      "Kannada"
+    ],
+    "specializations": [
+      "headache",
+      "back pain",
+      "abdominal pain",
+      "cough",
+      "weight gain",
+      "fever",
+      "cold"
+    ]
+  },
+  {
+    "id": "DOC035",
+    "name": "Dr. Pooja Verma",
+    "department_id": "D011",
+    "department_name": "General Medicine",
+    "experience_years": 23,
+    "rating": 3.6,
+    "total_reviews": 190,
+    "available_slots": 2,
+    "consultation_fee": 700,
+    "languages": [
+      "Telugu"
+    ],
+    "specializations": [
+      "headache",
+      "back pain",
+      "abdominal pain",
+      "nausea",
+      "fatigue",
+      "weight gain",
+      "sore throat",
+      "fever"
+    ]
+  },
+  {
+    "id": "DOC036",
+    "name": "Dr. Pooja Desai",
+    "department_id": "D011",
+    "department_name": "General Medicine",
+    "experience_years": 20,
+    "rating": 3.5,
+    "total_reviews": 58,
+    "available_slots": 2,
+    "consultation_fee": 1200,
+    "languages": [
+      "Hindi"
+    ],
+    "specializations": [
+      "back pain",
+      "abdominal pain",
+      "nausea",
+      "cough",
+      "fatigue",
+      "weight gain",
+      "sore throat"
+    ]
+  },
+  {
+    "id": "DOC037",
+    "name": "Dr. Rahul Pillai",
+    "department_id": "D012",
+    "department_name": "Emergency",
+    "experience_years": 20,
+    "rating": 3.7,
+    "total_reviews": 177,
+    "available_slots": 5,
+    "consultation_fee": 300,
+    "languages": [
+      "Tamil",
+      "Kannada"
+    ],
+    "specializations": [
+      "chest pain",
+      "shortness of breath",
+      "eye pain"
+    ]
+  },
+  {
+    "id": "DOC038",
+    "name": "Dr. Meera Das",
+    "department_id": "D012",
+    "department_name": "Emergency",
+    "experience_years": 24,
+    "rating": 4.7,
+    "total_reviews": 228,
+    "available_slots": 2,
+    "consultation_fee": 500,
+    "languages": [
+      "Tamil"
+    ],
+    "specializations": [
+      "chest pain",
+      "shortness of breath",
+      "abdominal pain",
+      "eye pain"
+    ]
+  },
+  {
+    "id": "DOC039",
+    "name": "Dr. Arjun Nair",
+    "department_id": "D012",
+    "department_name": "Emergency",
+    "experience_years": 16,
+    "rating": 4.6,
+    "total_reviews": 190,
+    "available_slots": 6,
+    "consultation_fee": 500,
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "specializations": [
+      "chest pain",
+      "abdominal pain",
+      "eye pain",
+      "fever"
+    ]
+  },
+  {
+    "id": "DOC040",
+    "name": "Dr. Priya Bhat",
+    "department_id": "D012",
+    "department_name": "Emergency",
+    "experience_years": 15,
+    "rating": 3.8,
+    "total_reviews": 255,
+    "available_slots": 5,
+    "consultation_fee": 700,
+    "languages": [
+      "Tamil"
+    ],
+    "specializations": [
+      "shortness of breath",
+      "abdominal pain",
+      "eye pain",
+      "fever"
+    ]
+  },
+  {
+    "name": "Dr. Test Doctor",
+    "department_id": "D001",
+    "experience_years": 10,
+    "rating": 4.5,
+    "total_reviews": 0,
+    "available_slots": 2,
+    "consultation_fee": 700,
+    "languages": [
+      "English"
+    ],
+    "specializations": [
+      "chest pain"
+    ],
+    "department_name": "Cardiology",
+    "id": "DOC8DBE5F"
+  }
+]
