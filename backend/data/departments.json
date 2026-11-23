@@ -1,0 +1,74 @@
+[
+  {
+    "id": "D001",
+    "name": "Cardiology",
+    "description": "Heart and cardiovascular system",
+    "avg_wait_min": 20
+  },
+  {
+    "id": "D002",
+    "name": "Neurology",
+    "description": "Brain, spine, and nervous system",
+    "avg_wait_min": 30
+  },
+  {
+    "id": "D003",
+    "name": "Orthopedics",
+    "description": "Bones, joints, and muscles",
+    "avg_wait_min": 25
+  },
+  {
+    "id": "D004",
+    "name": "Gastroenterology",
+    "description": "Digestive system and stomach",
+    "avg_wait_min": 35
+  },
+  {
+    "id": "D005",
+    "name": "Dermatology",
+    "description": "Skin, hair, and nails",
+    "avg_wait_min": 15
+  },
+  {
+    "id": "D006",
+    "name": "Pulmonology",
+    "description": "Lungs and respiratory tract",
+    "avg_wait_min": 20
+  },
+  {
+    "id": "D007",
+    "name": "Endocrinology",
+    "description": "Hormones, diabetes, thyroid",
+    "avg_wait_min": 40
+  },
+  {
+    "id": "D008",
+    "name": "Ophthalmology",
+    "description": "Eyes and vision",
+    "avg_wait_min": 15
+  },
+  {
+    "id": "D009",
+    "name": "ENT",
+    "description": "Ear, nose, and throat",
+    "avg_wait_min": 20
+  },
+  {
+    "id": "D010",
+    "name": "Psychiatry",
+    "description": "Mental health and behavioural disorders",
+    "avg_wait_min": 45
+  },
+  {
+    "id": "D011",
+    "name": "General Medicine",
+    "description": "General adult illnesses and check-ups",
+    "avg_wait_min": 10
+  },
+  {
+    "id": "D012",
+    "name": "Emergency",
+    "description": "Acute and emergency care",
+    "avg_wait_min": 5
+  }
+]

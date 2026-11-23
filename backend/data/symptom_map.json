@@ -1,0 +1,100 @@
+{
+  "chest pain": [
+    "D001",
+    "D012",
+    "D006"
+  ],
+  "shortness of breath": [
+    "D006",
+    "D001",
+    "D012"
+  ],
+  "headache": [
+    "D002",
+    "D011",
+    "D009"
+  ],
+  "dizziness": [
+    "D002",
+    "D001",
+    "D009"
+  ],
+  "back pain": [
+    "D003",
+    "D011"
+  ],
+  "knee pain": [
+    "D003"
+  ],
+  "abdominal pain": [
+    "D004",
+    "D012",
+    "D011"
+  ],
+  "nausea": [
+    "D004",
+    "D011"
+  ],
+  "skin rash": [
+    "D005"
+  ],
+  "acne": [
+    "D005"
+  ],
+  "cough": [
+    "D006",
+    "D009",
+    "D011"
+  ],
+  "fatigue": [
+    "D007",
+    "D011",
+    "D010"
+  ],
+  "weight gain": [
+    "D007",
+    "D011"
+  ],
+  "blurred vision": [
+    "D008",
+    "D007"
+  ],
+  "eye pain": [
+    "D008",
+    "D012"
+  ],
+  "ear pain": [
+    "D009"
+  ],
+  "sore throat": [
+    "D009",
+    "D011"
+  ],
+  "anxiety": [
+    "D010"
+  ],
+  "depression": [
+    "D010"
+  ],
+  "fever": [
+    "D011",
+    "D012"
+  ],
+  "cold": [
+    "D011",
+    "D009"
+  ],
+  "diabetes symptoms": [
+    "D007"
+  ],
+  "heart palpitations": [
+    "D001"
+  ],
+  "joint swelling": [
+    "D003"
+  ],
+  "hair loss": [
+    "D005",
+    "D007"
+  ]
+}
