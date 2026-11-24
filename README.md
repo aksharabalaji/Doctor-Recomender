@@ -1,337 +1,260 @@
-<div align="center">
-# MediMatch – Doctor Recommender System
-
-🚀 **Live Project:** https://medimatch-frontend-e96m.onrender.com
-
-A smart doctor recommendation system that helps users find suitable doctors based on their symptoms and preferences.
-# 🩺 Doctor Recommender System
-
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=32&duration=3500&pause=1000&color=00D9FF&center=true&vCenter=true&width=900&lines=AI+Powered+Doctor+Recommendation+System;Machine+Learning+%7C+Healthcare;Smart+Hospital+Department+Prediction;Python+%7C+Flask+%7C+Scikit-Learn" />
-
-<p>
-
-<img src="https://img.shields.io/github/stars/aksharabalaji/Doctor-Recomender?style=for-the-badge&logo=github&color=yellow">
-<img src="https://img.shields.io/github/forks/aksharabalaji/Doctor-Recomender?style=for-the-badge&logo=github&color=blue">
-<img src="https://img.shields.io/github/repo-size/aksharabalaji/Doctor-Recomender?style=for-the-badge&color=green">
-<img src="https://img.shields.io/github/license/aksharabalaji/Doctor-Recomender?style=for-the-badge&color=red">
-<img src="https://komarev.com/ghpvc/?username=aksharabalaji&repo=Doctor-Recomender&style=for-the-badge&color=brightgreen">
-
-</p>
-
-</div>
-
----
-
-# 🏥 Project Overview
-
-The **Doctor Recommender System** is an intelligent healthcare application that predicts the most suitable medical department based on a patient's symptoms. The system helps patients identify the appropriate specialist, reducing diagnosis delays and improving healthcare accessibility.
-
-The project combines **Machine Learning** with a **Flask web application** to deliver accurate department recommendations through a simple and user-friendly interface.
-
----
-
-# 🎯 Objectives
-
-- 🩺 Predict the appropriate medical department
-- 🤖 Apply Machine Learning for healthcare
-- ⚡ Reduce patient waiting time
-- 📊 Improve diagnosis assistance
-- 💻 Build an easy-to-use web application
-
----
-
-# ✨ Features
-
-| Feature | Description |
-|----------|-------------|
-| 🤖 Machine Learning Prediction | Predicts the correct medical department |
-| 🩺 Symptom Analysis | Uses patient symptoms as input |
-| 🌐 Flask Web Application | Interactive web interface |
-| ⚡ Fast Predictions | Provides results within seconds |
-| 📈 High Accuracy | Optimized ML model |
-| 💻 User-Friendly Interface | Easy to use for everyone |
-
----
-
-# 🛠️ Technology Stack
+# 🏥 MediMatch – AI-Powered Doctor & Department Recommender System
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=python,flask,html,css,js,vscode,git,github" />
-
+  <b>An intelligent healthcare recommendation platform that connects patients with suitable medical departments and doctors based on their symptoms, availability, and preferences.</b>
 </p>
 
-### Machine Learning
+<p align="center">
+  <a href="https://medimatch-frontend-e96m.onrender.com">🌐 Live Demo</a> •
+  <a href="https://github.com/aksharabalaji/Doctor-Recomender">📂 GitHub Repository</a>
+</p>
 
-- Scikit-Learn
-- Pandas
-- NumPy
-- Joblib
+---
+
+## 🌟 Project Overview
+
+**MediMatch** is an AI/ML-based healthcare recommendation system designed to simplify the process of finding suitable doctors and medical departments.
+
+Users can enter their symptoms, and the system analyzes the information to recommend relevant medical departments and doctors.
+
+The application uses Machine Learning techniques, recommendation algorithms, and doctor availability information to provide personalized and relevant recommendations through an interactive web interface.
+
+MediMatch aims to make healthcare navigation easier, faster, and more accessible.
+
+## 🎯 Objectives
+
+- Recommend suitable medical departments based on patient symptoms.
+- Identify relevant doctors using intelligent recommendation algorithms.
+- Consider doctor availability while generating recommendations.
+- Provide personalized recommendations using user interaction data.
+- Improve healthcare accessibility through a user-friendly platform.
+- Provide an interactive analytics and feedback system.
+
+## ✨ Key Features
+
+| Feature | Description |
+|---|---|
+| 🔍 Symptom-Based Search | Enter symptoms to find suitable doctors and departments. |
+| 🤖 AI/ML Recommendations | Uses TF-IDF and recommendation techniques to identify relevant matches. |
+| 🏥 Department Recommendation | Suggests appropriate medical departments. |
+| 👨‍⚕️ Doctor Recommendation | Ranks doctors based on relevance and other available information. |
+| 📅 Availability Filtering | Filter doctors based on their availability. |
+| 🎯 Top-N Recommendations | Customize the number of recommended doctors. |
+| 👤 Personalized Results | Supports optional user-based recommendations. |
+| ⭐ Feedback System | Allows users to provide feedback. |
+| ➕ Add Doctor | Provides an interface to add doctor information. |
+| 📊 Analytics Dashboard | Displays recommendation-related analytics. |
+
+## 🛠️ Technology Stack
+
+### Programming Language
+- Python
 
 ### Frontend
-
-- HTML5
-- CSS3
-- JavaScript
+- Streamlit
 
 ### Backend
+- FastAPI
+- REST API
 
-- Python
-- Flask
+### Machine Learning & Data Processing
+- Scikit-learn
+- Pandas
+- NumPy
+- TF-IDF
+- Recommendation Algorithms
 
----
+### Deployment
+- Render
 
-# 🏗️ System Architecture
+### Development Tools
+- Visual Studio Code
+- Git
+- GitHub
 
-```text
-          Patient
-              │
-              ▼
-      Enter Symptoms
-              │
-              ▼
-       Flask Web App
-              │
-              ▼
-   Machine Learning Model
-              │
-              ▼
- Department Prediction
-              │
-              ▼
- Display Recommended
- Medical Department
-```
-
----
-
-# 🔄 Workflow
+## 🧠 How MediMatch Works
 
 ```text
-User
- │
- ▼
-Enter Symptoms
- │
- ▼
-Data Processing
- │
- ▼
-Machine Learning Model
- │
- ▼
-Prediction
- │
- ▼
-Doctor Department Recommendation
+        PATIENT
+           |
+           ▼
+    Enter Symptoms
+           |
+           ▼
+     Data Processing
+           |
+           ▼
+   Machine Learning Engine
+           |
+           ▼
+   Department Recommendation
+           |
+           ▼
+    Doctor Ranking System
+           |
+           ▼
+   Availability Filtering
+           |
+           ▼
+  Personalized Recommendations
+           |
+           ▼
+     DISPLAY RESULTS
 ```
 
----
+## ⚙️ Recommendation Methodology
 
-# 📂 Project Structure
+MediMatch combines different recommendation techniques to generate relevant results.
+
+**1. TF-IDF (Term Frequency–Inverse Document Frequency)**
+
+- Processes symptom-related information.
+- Identifies relevant keywords.
+- Helps determine similarity between symptoms and medical departments.
+
+**2. Content-Based Recommendation**
+
+- Matches patient symptoms with relevant doctor and department information.
+- Uses available doctor details to rank relevant results.
+
+**3. Collaborative Filtering**
+
+- Uses available user interaction information to support personalized recommendations.
+
+**4. Availability-Based Filtering**
+
+- Considers doctor availability.
+- Allows users to filter out unavailable doctors.
+
+## 📂 Project Structure
 
 ```text
 Doctor-Recomender/
 │
-├── assets/
-│   ├── banner.png
-│   ├── homepage.png
-│   ├── prediction.png
-│   ├── workflow.png
-│   └── demo.gif
+├── frontend/
+│   └── app.py
 │
-├── templates/
-├── static/
-├── model/
-├── app.py
+├── backend/
+│   ├── main.py
+│   ├── engine.py
+│   ├── schemas.py
+│   └── seed_data.py
+│
+├── data/
+│   ├── doctors.json
+│   ├── departments.json
+│   ├── symptom_map.json
+│   └── interactions.json
+│
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
----
+*Note: Adjust the folder names above if your actual repository structure differs.*
 
-# 📸 Project Screenshots
+## 🚀 Live Application
 
-## 🏠 Home Page
+Experience MediMatch here:
 
-<p align="center">
+🌐 **[Launch MediMatch – Live Application](https://medimatch-frontend-e96m.onrender.com)**
 
-<img src="assets/homepage.png" width="900">
+The application is deployed using Render.
 
-</p>
+## 💻 Installation and Setup
 
----
-
-## 🩺 Prediction Result
-
-<p align="center">
-
-<img src="assets/prediction.png" width="900">
-
-</p>
-
----
-
-## 📊 Workflow Diagram
-
-<p align="center">
-
-<img src="assets/workflow.png" width="900">
-
-</p>
-
----
-
-# 🎥 Live Demonstration
-
-<p align="center">
-
-<img src="assets/demo.gif" width="900">
-
-</p>
-
----
-
-# ⚙️ Installation
-
-## Clone Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/aksharabalaji/Doctor-Recomender.git
+```
 
+### 2. Navigate to the Project
+
+```bash
 cd Doctor-Recomender
 ```
 
----
+### 3. Create a Virtual Environment
 
-## Install Dependencies
+```bash
+python -m venv venv
+```
+
+Activate it on Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+### 4. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
----
-
-## Run Application
+### 5. Start the FastAPI Backend
 
 ```bash
-python app.py
+python -m uvicorn main:app --reload
 ```
 
-Open your browser and visit:
+The backend should be accessible at:
 
 ```text
-http://127.0.0.1:5000
+http://127.0.0.1:8000
 ```
 
----
+### 6. Start the Streamlit Frontend
 
-# 🧠 Machine Learning Pipeline
+Open another terminal and execute:
+
+```bash
+python -m streamlit run frontend/app.py
+```
+
+Open the local application in your browser:
 
 ```text
-Patient Symptoms
-        │
-        ▼
-Data Cleaning
-        │
-        ▼
-Feature Engineering
-        │
-        ▼
-ML Model Prediction
-        │
-        ▼
-Department Recommendation
+http://localhost:8501
 ```
 
----
+*Ensure that the backend entry point and API URL match your local project configuration.*
 
-# 📊 Project Highlights
+## 🔮 Future Enhancements
 
-✅ Machine Learning Based Prediction
+- Integration with real hospital databases.
+- Online doctor appointment booking.
+- AI-powered healthcare chatbot.
+- Multilingual support.
+- Hospital and clinic recommendations.
+- Advanced patient analytics.
+- Improved recommendation accuracy using larger datasets.
 
-✅ Flask Web Application
+## ⚠️ Disclaimer
 
-✅ Healthcare Decision Support
+MediMatch is an educational and decision-support project. It is not a substitute for professional medical advice, diagnosis, or treatment. Recommendations should not be considered medical diagnoses.
 
-✅ Responsive User Interface
+## 👩‍💻 Developer
 
-✅ Fast Department Recommendation
+**Akshara Balaji**
 
----
+B.E. Computer Science and Engineering – Cyber Security
 
-# 🚀 Future Enhancements
+**Areas of Interest:**
+- Artificial Intelligence & Machine Learning
+- Python Development
+- Healthcare Technology
+- Data Science
 
-- 🤖 AI Chatbot for Medical Assistance
-- 🩻 Disease Prediction Module
-- 📱 Mobile Application
-- 🌍 Multi-Language Support
-- 🏥 Hospital Recommendation
-- 📅 Online Appointment Booking
-- 📈 Analytics Dashboard
-- ☁️ Cloud Deployment
+## ⭐ Support
 
----
+If you find this project interesting or useful, consider giving this repository a ⭐ on GitHub!
 
-# 📚 Learning Outcomes
-
-This project enhanced practical knowledge in:
-
-- Machine Learning
-- Healthcare Analytics
-- Flask Development
-- Python Programming
-- Data Preprocessing
-- Model Deployment
-- Web Development
-- User Interface Design
+Your support motivates further development and innovation.
 
 ---
 
-# 👨‍💻 Developer
-
-<div align="center">
-
-## **Akshara Balaji**
-
-🎓 Computer Science Student
-
-🤖 Machine Learning Enthusiast
-
-💻 Python Developer
-
-🩺 Healthcare AI Learner
-
-</div>
-
----
-
-<div align="center">
-
-### Connect with Me
-
-<a href="https://github.com/aksharabalaji">
-<img src="https://img.shields.io/badge/GitHub-aksharabalaji-black?style=for-the-badge&logo=github">
-</a>
-
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-# ⭐ Support This Project
-
-If you found this project useful,
-
-## ⭐ Star this Repository
-
-It encourages me to build more Machine Learning and Healthcare AI projects.
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:11998e,50:38ef7d,100:00b09b&height=120&section=footer"/>
-
-</div>
+<p align="center">
+  <b>Built with ❤️ using Python, Machine Learning and FastAPI.</b>
+</p>
